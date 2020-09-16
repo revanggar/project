@@ -78,7 +78,7 @@
 
 <body>
 	<!-- Start header -->
-  <header class="top-navbar">
+    <header class="top-navbar">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
         <a class="navbar-brand" href="home.php">
@@ -106,41 +106,107 @@
       </div>
     </nav>
   </header>
-  <!-- End header -->
+    <!-- End header -->
 
-	<!-- Start About -->
-	<div class="about-section-box">
-		<div class="container">
+	<!-- Start blog details -->
+	<div class="blog-box">
+		<div class="container" style="font-family: 'Athiti', sans-serif;">
 			<div class="row">
-				<div class="col-lg-6 col-md-6 col-sm-12">
-					<img src="images/dlh0.png" alt="" class="img-fluid">
+				<div class="col-lg-12">
+					<div style="margin-top: 100px;" class="heading-title text-center">
+						<h2 style="font-family: 'Athiti', sans-serif;">Mahasiswa PKL di Dinas Lingkungan Hidup</h2>
+						<ul>
+							<li><i class="zmdi zmdi-account"></i>Posted By : <span>Admin</span></li>
+						</ul>					</div>
 				</div>
-				<div class="col-lg-6 col-md-6 col-sm-12 text-center">
-					<div class="inner-column">
-						<h1>Selamat Datang Di Dinas Lingkungan Hidup Kota Medan</span></h1></div>
-						<h4 style="font-family: Times New Roman"><b>Sejarah Singkat</b></h4>
-						<p style="text-align: justify;">Dinas Lingkungan Hidup Kota Medan terbentuk dari peningkatan status Dinas Pengelolaan Lingkungan Hidup, Energi dan Sumber daya Mineral Kota Medan sesuai dengan Peraturan Pemerintah Nomor 41 tahun 2007 dan Perda kota Medan Nomor : 3 tahun 2009.</p>
-						<h4 style="font-family: Times New Roman"><b>Makna dari Logo DLH</b></h4>
-						<p style="text-align: left;">1.	Lingkaran luar berwarna coklat melambangkan pembangunan yang tidak mengenal kata akhir untuk mewujudkan kelestarian alam dan kesejahteraan masyarakat.<br> 
-						2.	Lingkaran berwarna biru melambangkan alam semesta.<br> 
-						3.	Batang, cabang pohon berwarna hijau dan akar pohon berwarna emas, gambaran utuh Kalpataru yang memiliki arti tatanan lingkungan yang serasi, selaras dan seimbang serta melambangkan hutan, tanah, air udara dan makhluk hidup.<br>
-						4.	Pohon hijau melambangkan hutan yang subur yang berfungsi dalam upaya konservasi sumber daya alam dan lingkungan hidup. <br></div></div>
-						5.	Pohon dan akar berwarna hitam melambangkan hutan sebagai sarana pendukung pembangunan nasional perlu dikelola secara produktif dan lestari. <br> 
-						6.	Warna dasar coklat di dalam lingkaran melambangkan tanah yang subur berkat usaha penghijauan, reboisasi dan konservasi tanah, serta usaha lainnya yang dilakukan terus menerus. <br> 
-						7.	Warna hitam di atas akar berwarna emas melambangkan lapisan tanah yang subur. <br> 
-						8.	Warna biru di bawah pohon melambangkan fungsi hutan sebagai pengatur tata air. <br> 
-						9.	Warna putih di bawah pohon melambangkan sumber air untuk kelangsungan kehidupan.</p>
-
-						
+			</div>
+			<div class="row">
+				<div class="col-xl-8 col-lg-8 col-12">
+					<div class="blog-inner-details-page">
+						<div class="blog-inner-box">
+							<div class="side-blog-img">
+								<img class="img-fluid" src="images/pkl.jpeg" alt="">							
+								<div class="date-blog-up">
+									04 Agustus 2020
+								</div>
+							</div>
+							<div style="text-align: justify;" class="inner-blog-detail details-page">
+								<p>Kantor Dinas Lingkungan Hidup Kota Medan kembali kedatangan mahasiswa Praktik Kerja Lapangan (PKL) dari Universitas Sumatera Utara. Dari tanggal 6 Juli 2020 sampai 6 Agustus 2020.</p>
+								<p>Sebanyak 4 mahasiswa yang melakukan Praktik Kerja Lapangan (PKL) yang terdiri dari 3 mahasiswa berasal dari Universitas Sumatera Utara (USU) dan 1 mahasiswi berasal dari Univeritas Muhammadiyah Sumatera Utara (UMSU)</p>
+								<blockquote>
+									<p>Baca Juga</p>
+									<a href="berita2.html">Penutupan Mahasiswa PKL di Dinas Lingkungan Hidup</a>
+								</blockquote>
+								<p>Meskipun di Indonesia masih di landa wabah Covid-19 tetapi kegiatan Praktik Kerja Lapangan (PKL) masih berjalan dengan menerapkan protokol kesehatan dari pemerintah.
+								   Adapun mereka melakukan kegiatan Praktik Kerja Lapangan (PKL) sebagai pemenuhan dari kegiatan perkuliahan mereka di kampus masing-masing.
+								   Mereka mendapatkan bimbingan dari pegawai Dinas Lingkungan Hidup. 
+								</p>
+								<p>""Selama saya PKL disini (Dinas Lingkungan Hidup) saya mendapatkan banyak pengalaman yang belum saya rasakan sebelumnya seperti interaksi dengan pegawai kantor di Dinas Lingkungan Hidup. 
+									Disini (pegawai Dinas Lingkungan Hidup) sangat ramah dan sangat terbuka dengan kedatangan kami, sangat sabar mengajari dan mengasih tahu kami tentang apa saja yang harus kami lakukan di kantor ini. ""
+								   Kata salah satu mahsiswa yang berasal dari Universitas Sumatera Utara.
+								</p>
+								<p>""Karena ini adalah pengalaman pertama kami PKL dan berinteraksi dengan pegawai di sebuah instansi besar kami masih bingung, dan segan apa yang harus kami lakukan.
+									Beruntungnya semua pegawai disini sangat terbuka sama kami dikasih apa saja yang harus kami lakukan dan apa saja yang tidak harus kami lakukan. ""
+								   Sambungnya.
+								</p>
+								<p>Mereka sangat antusias melakukan Praktik Kerja Lapangan (PKL) Dinas Lingkungan Hidup. 
+								   Menurut mereka seluruh pegawai sangat ramah dan sangat terbuka untuk mahasiswa yang melakukan PKL atau sejenisnya.</p>
+							</div>
+						</div>
 					</div>
 				</div>
+			
+				<div class="col-xl-4 col-lg-4 col-md-6 col-sm-8 col-12 blog-sidebar">
+					<div class="right-side-blog">
+						<h3>Cari Berita</h3>
+						<div class="blog-search-form">
+							<input name="search" placeholder="Cari Berita" type="text">
+							<button class="search-btn">
+								<i class="fa fa-search" aria-hidden="true"></i>
+							</button>
+						</div>
+						<h3>Recent Post</h3>
+						<div class="post-box-blog">
+							<div class="recent-post-box">
+								<div class="recent-box-blog">								
+									<div class="recent-img">									
+										<img class="img-fluid" src="images/pkl.jpeg" alt="">
+									</div>
+									<div class="recent-info">
+										<ul>
+											<li><i class="zmdi zmdi-account"></i>Posted By : <span>Admin</span></li>
+											<li>|</li>
+											<li><i class="zmdi zmdi-time"></i>4 Agustus 2020</li>
+										</ul>										
+										<a href="berita1.php">Mahasiswa PKL di Dinas Lingkungan Hidup </a>
+										<h4></h4>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						<h3>Recent Tag</h3>
+						<div class="blog-tag-box">
+							<ul class="list-inline tag-list">
+								<li class="list-inline-item"><a href="#">Mahasiswa PKL</a></li>
+								<li class="list-inline-item"><a href="#">Dinas Lingkungan Hidup</a></li>
+								<li class="list-inline-item"><a href="#">Bank Sampah</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			
 			</div>
 		</div>
 	</div>
-	<!-- End About -->
+	<!-- End details -->
+	
+	<!-- Start Chat -->
 	<button type="button" class="btn btn-dark rounded-circle p-0 m-3 fixed-bawah" style="height: 45px; width: 45px; float: right;" onclick="document.getElementById('chatbot').style.display='block'">
 		<a href="kontak.php"><i class="fa fa-comment" style="color: white; font-size: 18pt; padding-top: 3px; padding-left: .5px"></i></a>
 	</button>
+	<!-- End Chat -->
+
 	<!-- Start Footer -->
 	<footer style="font-family: 'Times New Roman', Times, serif;font-size: 15pt;" class="footer-area bg-f">
 		<div class="container">
@@ -195,6 +261,7 @@
 	<script src="js/popper.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
     <!-- ALL PLUGINS -->
+	
 	<script src="js/jquery.superslides.min.js"></script>
 	<script src="js/images-loded.min.js"></script>
 	<script src="js/isotope.min.js"></script>

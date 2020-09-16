@@ -107,38 +107,63 @@
     </nav>
   </header>
   <!-- End header -->
-
-	<!-- Start About -->
-	<div class="about-section-box">
+	<br><br>
+	<!-- Start blog details -->
+	<div class="blog-box">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-6 col-md-6 col-sm-12">
-					<img src="images/dlh0.png" alt="" class="img-fluid">
+				<div class="col-lg-12">
+					<div class="heading-title text-center">
+						<h2>Informasi</h2>
+					</div>
 				</div>
-				<div class="col-lg-6 col-md-6 col-sm-12 text-center">
-					<div class="inner-column">
-						<h1>Selamat Datang Di Dinas Lingkungan Hidup Kota Medan</span></h1></div>
-						<h4 style="font-family: Times New Roman"><b>Sejarah Singkat</b></h4>
-						<p style="text-align: justify;">Dinas Lingkungan Hidup Kota Medan terbentuk dari peningkatan status Dinas Pengelolaan Lingkungan Hidup, Energi dan Sumber daya Mineral Kota Medan sesuai dengan Peraturan Pemerintah Nomor 41 tahun 2007 dan Perda kota Medan Nomor : 3 tahun 2009.</p>
-						<h4 style="font-family: Times New Roman"><b>Makna dari Logo DLH</b></h4>
-						<p style="text-align: left;">1.	Lingkaran luar berwarna coklat melambangkan pembangunan yang tidak mengenal kata akhir untuk mewujudkan kelestarian alam dan kesejahteraan masyarakat.<br> 
-						2.	Lingkaran berwarna biru melambangkan alam semesta.<br> 
-						3.	Batang, cabang pohon berwarna hijau dan akar pohon berwarna emas, gambaran utuh Kalpataru yang memiliki arti tatanan lingkungan yang serasi, selaras dan seimbang serta melambangkan hutan, tanah, air udara dan makhluk hidup.<br>
-						4.	Pohon hijau melambangkan hutan yang subur yang berfungsi dalam upaya konservasi sumber daya alam dan lingkungan hidup. <br></div></div>
-						5.	Pohon dan akar berwarna hitam melambangkan hutan sebagai sarana pendukung pembangunan nasional perlu dikelola secara produktif dan lestari. <br> 
-						6.	Warna dasar coklat di dalam lingkaran melambangkan tanah yang subur berkat usaha penghijauan, reboisasi dan konservasi tanah, serta usaha lainnya yang dilakukan terus menerus. <br> 
-						7.	Warna hitam di atas akar berwarna emas melambangkan lapisan tanah yang subur. <br> 
-						8.	Warna biru di bawah pohon melambangkan fungsi hutan sebagai pengatur tata air. <br> 
-						9.	Warna putih di bawah pohon melambangkan sumber air untuk kelangsungan kehidupan.</p>
-
-						
+			</div>
+			<div class="row">
+				<div class="col-xl-8 col-lg-8 col-12">
+					<div class="blog-inner-details-page">
+						<div class="blog-inner-box">
+							<div class="side-blog-img">
+								<img class="img-fluid" src="images/dlh0.png" alt="">							
+								<div class="date-blog-up">
+									3 Agustus 2020
+								</div>
+							</div>
+							<div class="inner-blog-detail details-page">
+								<h3>Makna Logo Dinas Lingkungan Hidup.</h3>
+								<ul>
+									<li><i class="zmdi zmdi-account"></i>Posted By : <span>Admin</span></li>
+								</ul>
+								<p>Sebuah perusahaan haruslah memiliki sebuah logo sebagai melambangkan sebuah identitas suatu perusahaan tersebut. Berikut adalah logo serta makna Dinas Lingkungan Hidup Kota Medan. <br><br>
+								1. Lingkaran luar berwarna coklat melambangkan pembangunan yang tidak mengenal kata akhir untuk mewujudkan kelestarian alam dan kesejahteraan masyarakat. <br>
+								2.	Lingkaran berwarna biru melambangkan alam semesta. <br>
+								3.	Batang, cabang pohon berwarna hijau dan akar pohon berwarna emas, gambaran utuh Kalpataru yang memiliki arti tatanan lingkungan yang serasi, selaras dan seimbang serta melambangkan hutan, tanah, air udara dan makhluk hidup. <br>
+								4.	Pohon hijau melambangkan hutan yang subur yang berfungsi dalam upaya konservasi sumber daya alam dan lingkungan hidup. <br>
+								5.	Pohon dan akar berwarna hitam melambangkan hutan sebagai sarana pendukung pembangunan nasional perlu dikelola secara produktif dan lestari. <br>
+								6.	Warna dasar coklat di dalam lingkaran melambangkan tanah yang subur berkat usaha penghijauan, reboisasi dan konservasi tanah, serta usaha lainnya yang dilakukan terus menerus. <br>
+								7.	Warna hitam di atas akar berwarna emas melambangkan lapisan tanah yang subur. <br>
+								8.	Warna biru di bawah pohon melambangkan fungsi hutan sebagai pengatur tata air. <br>
+								9.	Warna putih di bawah pohon melambangkan sumber air untuk kelangsungan kehidupan.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			
+				<div class="col-xl-4 col-lg-4 col-md-6 col-sm-8 col-12 blog-sidebar">
+					<div class="right-side-blog">
+						<h3>Cari</h3>
+						<div class="blog-search-form">
+							<input name="search" placeholder="Cari Blog" type="text">
+							<button class="search-btn">
+								<i class="fa fa-search" aria-hidden="true"></i>
+							</button>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- End About -->
-	<button type="button" class="btn btn-dark rounded-circle p-0 m-3 fixed-bawah" style="height: 45px; width: 45px; float: right;" onclick="document.getElementById('chatbot').style.display='block'">
+	<!-- End details -->
+<button type="button" class="btn btn-dark rounded-circle p-0 m-3 fixed-bawah" style="height: 45px; width: 45px; float: right;" onclick="document.getElementById('chatbot').style.display='block'">
 		<a href="kontak.php"><i class="fa fa-comment" style="color: white; font-size: 18pt; padding-top: 3px; padding-left: .5px"></i></a>
 	</button>
 	<!-- Start Footer -->
@@ -195,6 +220,7 @@
 	<script src="js/popper.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
     <!-- ALL PLUGINS -->
+	
 	<script src="js/jquery.superslides.min.js"></script>
 	<script src="js/images-loded.min.js"></script>
 	<script src="js/isotope.min.js"></script>

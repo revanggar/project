@@ -26,7 +26,7 @@
 	}
 
 	body {
-	  font-family: Arial, Helvetica, sans-serif;
+		font-family: 'Athiti', sans-serif;
 	}
 
 	/* Float four columns side by side */
@@ -91,7 +91,6 @@
 					<ul class="navbar-nav ml-auto" style="font-family: 'Athiti', sans-serif;">
 						<li class="nav-item active"><a class="nav-link" href="home.php">Beranda</a></li>
 						<li class="nav-item"><a class="nav-link" href="agenda.php">Agenda</a></li>
-						<li class="nav-item"><a class="nav-link" href="pengumuman.php">Pengumuman</a></li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Profil</a>
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
@@ -112,7 +111,7 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="heading-title text-center">
-						<h2>Blog</h2>
+						<h1>Makna Logo Dinas Lingkungan Hidup</h1>
 					</div>
 				</div>
 			</div>
@@ -127,7 +126,6 @@
 								</div>
 							</div>
 							<div class="inner-blog-detail details-page">
-								<h3>Makna Logo Dinas Lingkungan Hidup.</h3>
 								<ul>
 									<li><i class="zmdi zmdi-account"></i>Posted By : <span>Admin</span></li>
 								</ul>
@@ -144,50 +142,62 @@
 							</div>
 						</div>
 					
-						<div class="comment-respond-box">
-							<h3>Komentar </h3>
-							<div class="comment-respond-form">
-								<form id="commentrespondform" class="comment-form-respond row" method="post">
-									<div class="col-lg-6 col-md-6 col-sm-6">
-										<div class="form-group">
-											<input id="name_com" class="form-control" name="name" placeholder="Nama" type="text">
-										</div>
-										<div class="form-group">
-											<input id="email_com" class="form-control" name="email" placeholder="Email Anda" type="email">
-										</div>
-									</div>
-									<div class="col-lg-6 col-md-6 col-sm-6">
-										<div class="form-group">
-											<textarea class="form-control" id="textarea_com" placeholder="Komentar Anda" rows="2"></textarea>
-										</div>
-									</div>
-									<div class="col-lg-12 col-md-12 col-sm-12">
-										<button class="btn btn-submit">Konfirmasi Komentar</button>
-									</div>
-								</form>
-							</div>
-						</div>
+						
 					</div>
 				</div>
 			
 				<div class="col-xl-4 col-lg-4 col-md-6 col-sm-8 col-12 blog-sidebar">
 					<div class="right-side-blog">
-						<h3>Cari</h3>
+						<h3>Cari Berita</h3>
 						<div class="blog-search-form">
-							<input name="search" placeholder="Cari Blog" type="text">
+							<input name="search" placeholder="Cari Berita" type="text">
 							<button class="search-btn">
 								<i class="fa fa-search" aria-hidden="true"></i>
 							</button>
 						</div>
+						<h3>Recent Post</h3>
+						<div class="post-box-blog">
+							<div class="recent-post-box">
+								<div class="recent-box-blog">								
+									<div class="recent-img">									
+										<img class="img-fluid" src="images/dlh0.png" alt="">
+									</div>
+									<div class="recent-info">
+										<ul>
+											<li><i class="zmdi zmdi-account"></i>Posted By : <span>Admin</span></li>
+											<li>|</li>
+											<li><i class="zmdi zmdi-time"></i>3 Agustus 2020</li>
+										</ul>										
+										<a href="blog-dlh.php">Makna Logo Dinas Lingkungan Hidup. </a>
+										<h4></h4>
+									</div>
+								</div>
 
+							</div>
+						</div>
+						<h3>Recent Tag</h3>
+						<div class="blog-tag-box">
+							<ul class="list-inline tag-list">
+								<li class="list-inline-item"><a href="#">Mahasiswa PKL</a></li>
+								<li class="list-inline-item"><a href="#">Dinas Lingkungan Hidup</a></li>
+								<li class="list-inline-item"><a href="#">Bank Sampah</a></li>
+							</ul>
+						</div>
 					</div>
 				</div>
+
 			</div>
 		</div>
 	</div>
 	<!-- End details -->
 
-	<!-- Start Footer -->
+	<!-- Start Chat -->
+	<button type="button" class="btn btn-dark rounded-circle p-0 m-3 fixed-bawah" style="height: 45px; width: 45px; float: right;" onclick="document.getElementById('chatbot').style.display='block'">
+		<a href="kontak.php"><i class="fa fa-comment" style="color: white; font-size: 18pt; padding-top: 3px; padding-left: .5px"></i></a>
+	</button>
+	<!-- End Chat -->
+
+    <!-- Start Footer -->
 	<footer style="font-family: 'Times New Roman', Times, serif;font-size: 15pt;" class="footer-area bg-f">
 		<div class="container">
 			<div class="row">
@@ -212,11 +222,12 @@
 						</form>
 					</div>
 					<ul class="list-inline f-social">
-						<li class="list-inline-item"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-						<li class="list-inline-item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-						<li class="list-inline-item"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-						<li class="list-inline-item"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-						<li class="list-inline-item"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.google.com/"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+						<li class="list-inline-item"><a href="http://mail.google.com/mail"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.linkedin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li class="list-inline-item"><a href="https://twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
 					</ul>
 				</div>
 			</div>
@@ -224,9 +235,8 @@
 		<div class="copyright">
 			<div class="container">
 				<div class="row">
-				<div class="col-lg-12">
-						<p class="company-name">All Rights Reserved. &copy; 2020 <a href="#">blablabla</a> Design By : 
-					<a href="#">Rugaza</a></p>
+					<div class="col-lg-12">
+						<p class="company-name">Design By : <a href="#">Rugaza</a></p>
 					</div>
 				</div>
 			</div>

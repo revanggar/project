@@ -56,27 +56,23 @@
       <div class="container">
         <a class="navbar-brand" href="home.php">
           <img src="images/logo-web.png" alt="" />
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-rs-food" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbars-rs-food">
-          <ul class="navbar-nav ml-auto" style="font-family: 'Athiti', sans-serif;">
-            <li class="nav-item"><a class="nav-link" href="home.php">Beranda</a></li>
-            <li class="nav-item"><a class="nav-link" href="agenda.php">Agenda</a></li>
-            <li class="nav-item"><a class="nav-link" href="berita.php">Berita</a></li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Profil</a>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-rs-food" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbars-rs-food">
+              <ul class="navbar-nav ml-auto" style="font-family: 'Athiti', sans-serif;">
+              <li class="nav-item active"><a class="nav-link" href="home.php">Beranda</a></li>
+              <li class="nav-item"><a class="nav-link" href="agenda.php">Agenda</a></li>
+              <li class="nav-item"><a class="nav-link" href="berita.php">Berita</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Profil</a>
               <div class="dropdown-menu" aria-labelledby="dropdown-a">
                 <a class="dropdown-item" href="vimi.php">Visi Misi</a>
                 <a class="dropdown-item" href="organisasi.php">Struktur Organisasi</a>
               </div>
-                        <li class="nav-item dropdown active">
-                            <a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Login</a>
-                            <div class="dropdown-menu" aria-labelledby="dropdown-a">
-                                <a class="dropdown-item" href="login.php">Login</a>
-                                <a class="dropdown-item" href="register.php">Register</a>
-                            </div>
+              <li class="nav-item"><a class="nav-link" href="login.php">Login</a></li>
+              </div>
             </li>
           </ul>
         </div>
@@ -181,12 +177,22 @@
             </form>
           </div>
           <ul class="list-inline f-social">
-            <li class="list-inline-item"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-            <li class="list-inline-item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-            <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-            <li class="list-inline-item"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-            <li class="list-inline-item"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.google.com/"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+            <li class="list-inline-item"><a href="http://mail.google.com/mail"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.linkedin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li class="list-inline-item"><a href="https://twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
           </ul>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <p style="text-align: center;" class="company-name">Copyright ©2020 All rights reserved By : <a href="#">RuGaZa</a></p>
+          </div>
         </div>
       </div>
     </div>

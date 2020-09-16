@@ -79,30 +79,33 @@
 <body>
 	<!-- Start header -->
 	<header class="top-navbar">
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			<div class="container">
-				<a class="navbar-brand" href="home.php">
-					<img src="images/logo-web.png" alt="" />
-				</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-rs-food" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
-				  <span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbars-rs-food">
-					<ul class="navbar-nav ml-auto" style="font-family: 'Athiti', sans-serif;">
-						<li class="nav-item active"><a class="nav-link" href="home.php">Beranda</a></li>
-						<li class="nav-item"><a class="nav-link" href="agenda.php">Agenda</a></li>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Profil</a>
-							<div class="dropdown-menu" aria-labelledby="dropdown-a">
-								<a class="dropdown-item" href="vimi.php">Visi Misi</a>
-								<a class="dropdown-item" href="organisasi.php">Struktur Organisasi</a>
-							</div>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-	</header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="home.php">
+          <img src="images/logo-web.png" alt="" />
+        	</a>
+        	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-rs-food" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+          		<span class="navbar-toggler-icon"></span>
+        		</button>
+        		<div class="collapse navbar-collapse" id="navbars-rs-food">
+         	    <ul class="navbar-nav ml-auto" style="font-family: 'Athiti', sans-serif;">
+            	<li class="nav-item active"><a class="nav-link" href="home.php">Beranda</a></li>
+            	<li class="nav-item"><a class="nav-link" href="agenda.php">Agenda</a></li>
+            	<li class="nav-item"><a class="nav-link" href="berita.php">Berita</a></li>
+            	<li class="nav-item dropdown">
+              	<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Profil</a>
+            	<div class="dropdown-menu" aria-labelledby="dropdown-a">
+                <a class="dropdown-item" href="vimi.php">Visi Misi</a>
+                <a class="dropdown-item" href="organisasi.php">Struktur Organisasi</a>
+              </div>
+              <li class="nav-item"><a class="nav-link" href="login.php">Login</a></li>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
 	<!-- End header -->
 	<br><br>
 	<!-- Start blog -->
@@ -134,7 +137,7 @@
 							</ul>
 							<p style="font-family: 'Athiti', sans-serif;">Sebuah perusahaan haruslah memiliki sebuah logo sebagai melambangkan sebuah identitas suatu perusahaan tersebut.</p>
 							<p style="font-family: 'Athiti', sans-serif;">Berikut adalah logo serta makna Dinas Lingkungan Hidup Kota Medan.</p>
-							<a class="btn btn-lg btn-circle btn-outline-new-white" href="blog-dlh.php">Read More</a>
+							<a class="btn btn-lg btn-circle btn-outline-new-white" href="informasi-dlh.php">Read More</a>
 						</div>
 					</div>
 				</div>
@@ -289,7 +292,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
-						<p class="company-name">Design By : <a href="#">Rugaza</a></p>
+						<p style="text-align: center;" class="company-name">Copyright ©2020 All rights reserved By : <a href="#">RuGaZa</a></p>
 					</div>
 				</div>
 			</div>

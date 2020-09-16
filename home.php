@@ -78,39 +78,35 @@
 
 <body>
 	<!-- Start header -->
-	<header class="top-navbar">
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<div class="container">
-			<a class="navbar-brand" href="home.php">
-			<img src="images/logo-web.png" alt="" />
-			</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-rs-food" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbars-rs-food">
-			<ul class="navbar-nav ml-auto" style="font-family: 'Athiti', sans-serif;">
-				<li class="nav-item active"><a class="nav-link" href="home.php">Beranda</a></li>
-				<li class="nav-item"><a class="nav-link" href="agenda.php">Agenda</a></li>
-				<li class="nav-item"><a class="nav-link" href="berita.php">Berita</a></li>
-				<li class="nav-item dropdown">
-				<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Profil</a>
-				<div class="dropdown-menu" aria-labelledby="dropdown-a">
-					<a class="dropdown-item" href="vimi.php">Visi Misi</a>
-					<a class="dropdown-item" href="organisasi.php">Struktur Organisasi</a>
-				</div>
-							<li class="nav-item dropdown">
-								<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Login</a>
-								<div class="dropdown-menu" aria-labelledby="dropdown-a">
-									<a class="dropdown-item" href="login.php">Login</a>
-									<a class="dropdown-item" href="register.php">Register</a>
-								</div>
-				</li>
-			</ul>
-			</div>
-		</div>
-		</nav>
-	</header>
-	<!-- End header -->
+  <header class="top-navbar">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="home.php">
+          <img src="images/logo-web.png" alt="" />
+        	</a>
+        	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-rs-food" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+          		<span class="navbar-toggler-icon"></span>
+        		</button>
+        		<div class="collapse navbar-collapse" id="navbars-rs-food">
+         	    <ul class="navbar-nav ml-auto" style="font-family: 'Athiti', sans-serif;">
+            	<li class="nav-item active"><a class="nav-link" href="home.php">Beranda</a></li>
+            	<li class="nav-item"><a class="nav-link" href="agenda.php">Agenda</a></li>
+            	<li class="nav-item"><a class="nav-link" href="berita.php">Berita</a></li>
+            	<li class="nav-item dropdown">
+              	<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Profil</a>
+            	<div class="dropdown-menu" aria-labelledby="dropdown-a">
+                <a class="dropdown-item" href="vimi.php">Visi Misi</a>
+                <a class="dropdown-item" href="organisasi.php">Struktur Organisasi</a>
+              </div>
+              <li class="nav-item"><a class="nav-link" href="login.php">Login</a></li>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- End header -->
 	
 	<!-- Start slides -->
 	<div id="slides" class="cover-slides">
@@ -151,7 +147,7 @@
 						<h1 style="font-family: 'Athiti', sans-serif; padding-top: 100px;">Selamat Datang Di Dinas Lingkungan Hidup Kota Medan</span></h1>
 						<h4>Sejarah Singkat</h4>
 						<p style="text-align: justify;">Dinas Lingkungan Hidup Kota Medan terbentuk dari peningkatan status Dinas Pengelolaan Lingkungan Hidup, Energi dan Sumber daya Mineral Kota Medan sesuai dengan Peraturan Pemerintah Nomor 41 tahun 2007 dan Perda kota Medan Nomor : 3 tahun 2009.</p>
-						<a style="font-family: 'Athiti', sans-serif;" class="btn btn-lg btn-circle" href="tentang.html">Lihat lebih banyak</a>
+						<a style="font-family: 'Athiti', sans-serif;" class="btn btn-lg btn-circle" href="tentang.php">Lihat lebih banyak</a>
 					</div>
 				</div>
 			</div>
@@ -164,78 +160,70 @@
 	<div style="padding-left: 65px;margin-left: 13%;padding-bottom: 50px;width: 1200px" class="row">
 		<div class="column">
 		  <div style="outline-color: green;background-color: #38DA00;height: 80px;" class="card">
-				<img style="position: absolute;width: 50px;height: 50px;background-size:100%;" src="images/1.png";>   <a href="tentang.html"> <p style="margin-left: 60px;font-family: 'Athiti', sans-serif;color: white;font-size: 14pt;">Software Edukasi Lingkungan Hidup</p></a>			
+				<img style="position: absolute;width: 50px;height: 50px;background-size:100%;" src="images/1.png";>   <a href=""> <p style="margin-left: 60px;font-family: 'Athiti', sans-serif;color: white;font-size: 14pt;">Software Edukasi Lingkungan Hidup</p></a>			
 		  </div>
 	</div>
 
 	<div class="column">
 	  <div style="outline-color: green;background-color: #38DA00;height: 80px;" class="card">
-			<img style="position: absolute;width: 50px;height: 50px;background-size:100%;" src="images/2.png";>     <a href="tentang.html"> <p style="margin-left: 60px;font-family: 'Athiti', sans-serif;color: white;font-size: 14pt;">Sistem Informasi Manajemen DLH</p></a>
+			<img style="position: absolute;width: 50px;height: 50px;background-size:100%;" src="images/2.png";>     <a href=""> <p style="margin-left: 60px;font-family: 'Athiti', sans-serif;color: white;font-size: 14pt;">Sistem Informasi Manajemen DLH</p></a>
 	  </div>
 	</div>
 	<div class="column">
 	  <div style="outline-color: green;background-color: #38DA00;height: 80px;" class="card">
-			<img style="position: absolute;width: 50px;height: 50px;background-size:100%;" src="images/3.png";>     <a href="tentang.html"> <p style="margin-left: 60px;font-family: 'Athiti', sans-serif;color: white;font-size: 14pt;">Sistem Informasi Pelaporan(SIPPLah)</p></a>
+			<img style="position: absolute;width: 50px;height: 50px;background-size:100%;" src="images/3.png";>     <a href=""> <p style="margin-left: 60px;font-family: 'Athiti', sans-serif;color: white;font-size: 14pt;">Sistem Informasi Pelaporan(SIPPLah)</p></a>
 	  </div>
 	</div></div>
 	<div style="padding-left: 65px;margin-left: 13%;padding-bottom: 50px;width: 1200px" class="row">
 	  <div class="column">
 	  <div style="outline-color: green;background-color: #38DA00;height: 80px;" class="card">
-			<img style="position: absolute;width: 50px;height: 50px;background-size:100%;" src="images/3.png";>     <a href="tentang.html"> <p style="margin-left: 60px;font-family: 'Athiti', sans-serif;color: white;font-size: 14pt;padding-top: 10px;text-align: center;">Pengaduan</p></a>
+			<img style="position: absolute;width: 50px;height: 50px;background-size:100%;" src="images/3.png";>     <a href=""> <p style="margin-left: 60px;font-family: 'Athiti', sans-serif;color: white;font-size: 14pt;padding-top: 10px;text-align: center;">Pengaduan</p></a>
 		  </div>
 		</div>
 		<div class="column">
 	  <div style="outline-color: green;background-color: #38DA00;height: 80px;" class="card">
-			<img style="position: absolute;width: 50px;height: 50px;background-size:100%;" src="images/4.png";>     <a href="tentang.html"> <p style="margin-left: 60px;font-family: 'Athiti', sans-serif;color: white;font-size: 14pt;padding-top: 10px;">Output Pimpinan</p></a>
+			<img style="position: absolute;width: 50px;height: 50px;background-size:100%;" src="images/4.png";>     <a href=""> <p style="margin-left: 60px;font-family: 'Athiti', sans-serif;color: white;font-size: 14pt;padding-top: 10px;">Output Pimpinan</p></a>
 	  </div>
 	</div>
 	<div class="column">
 	  <div style="outline-color: green;background-color: #38DA00;height: 80px;" class="card">
-			<img style="position: absolute;width: 50px;height: 50px;background-size:100%;" src="images/5.png";>     <a href="tentang.html"> <p style="margin-left: 60px;font-family: 'Athiti', sans-serif;color: white;font-size: 14pt;padding-top: 10px;">Perpustakaan</p></a>
+			<img style="position: absolute;width: 50px;height: 50px;background-size:100%;" src="images/5.png";><a href=""> <p style="margin-left: 60px;font-family: 'Athiti', sans-serif;color: white;font-size: 14pt;padding-top: 10px;">Perpustakaan</p></a>
 	  </div>
-  </div></div>
-	<!-- End Progja -->
-<div class="heading-title text-center">
-						<h2><a href="berita.php">Berita </a></h2>
-						<p></p>
-					</div>
-	
-	<div style="color: black;font-family: 'Times New Roman', Times, serif" class="row">
-  <div style="margin-left: 130px;" class="column">
-    <div style="width: 355px;border-color: green;letter-spacing: 1 pt;font-family: 'Times New Roman', Times, serif" class="card">
-    	<img style="width: 343px;height: 190px;border-radius: 10px;" src="images/gal1.jpeg">
-      <h3 style="text-align: justify;" >Mahasiswa PKL Membuat Desain Web DLH </h3>
-      <p style="text-align: justify;" >Mahasiswa D3 Teknik Informatika USU yang PKL di Dinas Lingkungan Hidup membuat Desain Interface Web DLH  </p>
-      <p style="text-align: left;" >Post by : Admin <br> [11/08/2020]</p>
-
-      <a href="berita.html"><button style="background-color: white;color: green;border-radius: 5pt;border-color: green;width: 150px;margin-left: 55%;margin-top: -60px;margin-bottom: 10px;"> Lihat Lebih banyak </a></button>
-    </div>
-  </div>
-
-  <div class="column">
-    <div style="width: 355px;margin-left: 20px;border-color: green" class="card">
-    	<img style="width: 343px;height: 190px;border-radius: 10px;" src="images/gal5.jpeg">
-      <h3 style="text-align: justify;" >Mahasiswa PKL di Dinas Lingkungan Hidup</h3>
-      <p style="text-align: justify;" >Kantor Dinas Lingkungan Hidup Kota Medan kembali kedatangan mahasiswa Praktik Kerja Lapangan (PKL) dari Universitas Sumatera Utara.  </p>
-      <p style="text-align: left;" >Post by : Admin <br> [11/08/2020]</p>
-
-      <a href="berita.html"><button style="background-color: white;color: green;border-radius: 5pt;border-color: green;width: 150px;margin-left: 55%;margin-top: -60px;margin-bottom: 10px;"> Lihat Lebih banyak </a></button>
-    </div>
-  </div>
-  
-  <div class="column">
-   <div style="width: 355px;margin-left: 40px;border-color: green" class="card">
-			<img style="width: 343px;height: 190px;border-radius: 10px;" src="">
-	
-      <h3 style="text-align: justify;" >Artikel</h3>
-      <p style="text-align: justify;" >Artikel</p>
-      <p style="text-align: left;" >Post by : Admin <br> [Time]</p>
-
-      <a href="berita.html"><button style="background-color: white;color: green;border-radius: 5pt;border-color: green;width: 150px;margin-left: 55%;margin-top: -60px;margin-bottom: 10px;"> Lihat Lebih banyak </a></button>
-    </div>
-  </div>
   </div>
 </div>
+	<!-- End Progja -->
+<!-- Start Berita -->
+	<div class="col-rt-12">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="heading-title text-center">
+					<h2><a href="blog-dlh.php">Berita </a> </h2>
+							
+				</div>
+			</div>
+				
+				<!-- Artikel 1 -->
+				<div style="width: 355px;margin-left: 165px;border-color: green;font-family: 'Athiti', sans-serif;text-align: justify;" class="card">
+					<img style="width: 343px;height: 190px;border-radius: 10px;" src="images/pkl.jpeg"> <br>
+						<h3 style="text-align: justify;" >Mahasiswa PKL di Dinas Lingkungan Hidup</h3>
+						<p style="text-align: justify;" >Kantor Dinas Lingkungan Hidup Kota Medan kembali kedatangan mahasiswa Praktik Kerja Lapangan (PKL) dari Universitas Sumatera Utara.  </p>
+						<p style="text-align: left;" >Post by : Admin <br> [11/08/2020]</p>
+						<a href="berita1.php"><button style="background-color: white;color: green;border-radius: 5pt;border-color: green;width: 150px;margin-left: 55%;margin-top: -60px;margin-bottom: 10px;"> Lihat Lebih banyak </a></button>
+				</div>
+
+				<!-- Artikel 2 -->
+				<div style="width: 355px;margin-left: 65px;border-color: green;font-family: 'Athiti', sans-serif;text-align: justify;" class="card">
+					<img style="width: 343px;height: 190px;border-radius: 10px;" src="images/BKN.jpg"><br>
+						<h3 style="text-align: justify;" >Artikel</h3>
+						<p style="text-align: justify;" >Artikel</p>
+						<p style="text-align: left;" >Post by : Admin <br> [11/08/2020]</p>
+						<a href="#"><button style="background-color: white;color: green;border-radius: 5pt;border-color: green;width: 150px;margin-left: 55%;margin-top: -60px;margin-bottom: 10px;"> Lihat Lebih banyak </a></button>
+				</div>
+
+				<a href="berita.php" style="font-size: 50px;margin-top: -250px;margin-bottom: 10px;margin-left: 80%;margin-right: 58%;color: green;"><i class="fa fa-ellipsis-h"></i></a>
+
+	</div>
+	<!-- End Berita -->
 
 <!-- Start blog -->
 <div class="blog-box">
@@ -243,20 +231,19 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="heading-title text-center">
-						<h2><a href="blog-dlh.php">Informasi </a> </h2>
-						
+						<h2><br><br> Informasi </h2>
 					</div>
 				</div>
 			</div>
 			<div class="row">
-				<div style="margin-left: 50px" class="col-md-5 col-8">
+				<!-- Artikel 1 -->
+				<div style="margin-left: 100px;text-align: justify;" class="col-lg-4 col-md-6 col-12">
 					<div class="blog-box-inner">
-						
 						<div class="blog-img-box">
 							<img class="img-fluid" src="images/dlh0.png" alt="">
 						</div>
-						<div class="blog-detail" style="font-family: 'Athiti', sans-serif;font-size: 16px">
-							<a href="blog-dlh.html"><h4>Makna Logo Dinas Lingkungan Hidup.</h4></a>
+						<div class="blog-detail" style="font-family: 'Athiti', sans-serif;">
+							<h4>Makna Logo Dinas Lingkungan Hidup</h4>
 							<ul>
 								<li><span>Post by Admin</span></li>
 								<li>|</li>
@@ -264,29 +251,33 @@
 							</ul>
 							<p style="font-family: 'Athiti', sans-serif;">Sebuah perusahaan haruslah memiliki sebuah logo sebagai melambangkan sebuah identitas suatu perusahaan tersebut.</p>
 							<p style="font-family: 'Athiti', sans-serif;">Berikut adalah logo serta makna Dinas Lingkungan Hidup Kota Medan.</p>
-							<a class="btn btn-lg btn-circle" style="color: green" href="blog-dlh.html">Read More</a>
+							<a class="btn btn-lg btn-circle btn-outline-new-white" href="informasi-dlh.php">Read More</a>
 						</div>
 					</div>
 				</div>
 
-				<div style="margin-left: 0px;" class="col-md-5 col-8">
+				<!-- Artikel 2 -->
+				<div style="text-align: justify;" class="col-lg-4 col-md-6 col-12">
 					<div class="blog-box-inner">
 						<div class="blog-img-box">
-							<img class="img-fluid" src="images/dlh0.png" alt="">
+							<img class="img-fluid" src="images/ava.png" alt="">
 						</div>
-						<div class="blog-detail" style="font-family: 'Athiti', sans-serif;font-size: 16px">
-							<a href="blog-dlh.html"><h4>Tulisan</h4></a>
+						<div class="blog-detail" style="font-family: 'Athiti', sans-serif;">
+							<h4>Artikel</h4>
 							<ul>
 								<li><span>Post by Admin</span></li>
 								<li>|</li>
-								<li><span>3 Agustus 2020</span></li>
+								<li><span>30 February 2111</span></li>
 							</ul>
-							<p style="font-family: 'Athiti', sans-serif;">Artikel Tulisan Artikel Tulisan Artikel Tulisan Artikel Tulisan Artikel Tulisan Artikel Tulisan Artikel Tulisan Artikel Tulisan</p>
-							<p style="font-family: 'Athiti', sans-serif;">Artikel Tulisan Artikel Tulisan Artikel Tulisan Artikel Tulisan</p>
-							<a class="btn btn-lg btn-circle" style="color: green" href="blog-dlh.html">Read More</a>
+							<p>Artikel Artikel Artikel Artikel Artikel Artikel Artikel Artikel Artikel Artikel Artikel Artikel Artikel Artikel Artikel </p>
+							<p>Artikel Artikel Artikel Artikel Artikel Artikel Artikel Artikel Artikel Artikel Artikel Artikel </p>
+							<a class="btn btn-lg btn-circle btn-outline-new-white" href="#">Read More</a>
 						</div>
 					</div>
 				</div>
+
+				<a href="informasi.php" style="font-size: 50px;margin-top: -250px;margin-bottom: 10px;margin-left: 80%;margin-right: 58%;color: green;"><i class="fa fa-ellipsis-h"></i></a>
+			
 			</div>
 		</div>
 	</div>
@@ -299,7 +290,7 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="heading-title text-center">
-						<h2 style="font-family: 'Athiti', sans-serif;">Galeri</h2>
+						<h2><a href="gallery.php">Galeri</a> </h2>	
 					</div>
 				</div>
 			</div>
@@ -320,18 +311,18 @@
 							<img class="img-fluid" src="images/gal3.jpeg" alt="Gallery Images">
 						</a>
 					</div>
-					<a class="btn btn-lg btn-circle" style="font-family: 'Athiti', sans-serif; " href="gallery.html">Lihat lebih banyak</a>
+					<a class="btn btn-lg btn-circle" style="color: green;font-size: 10pt;margin-top: -5px;" href="Gallery.php">Lihat lebih banyak</a>
 				</div>
 			</div>
 		</div>
 	</div>
 	<!-- End Gallery -->
 	
-	<!-- Start Chat -->
+	<!-- Start Comment -->
 	<button type="button" class="btn btn-dark rounded-circle p-0 m-3 fixed-bawah" style="height: 45px; width: 45px; float: right;" onclick="document.getElementById('chatbot').style.display='block'">
 		<a href="kontak.php"><i class="fa fa-comment" style="color: white; font-size: 18pt; padding-top: 3px; padding-left: .5px"></i></a>
 	</button>
-	<!-- End Chat -->
+	<!-- End Comment -->
 	
 	<!-- Start Footer -->
 	<footer style="font-family: 'Times New Roman', Times, serif;font-size: 15pt;" class="footer-area bg-f">
@@ -358,11 +349,12 @@
 						</form>
 					</div>
 					<ul class="list-inline f-social">
-						<li class="list-inline-item"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-						<li class="list-inline-item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-						<li class="list-inline-item"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-						<li class="list-inline-item"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-						<li class="list-inline-item"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.google.com/"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+						<li class="list-inline-item"><a href="http://mail.google.com/mail"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.linkedin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li class="list-inline-item"><a href="https://twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
 					</ul>
 				</div>
 			</div>
@@ -370,15 +362,14 @@
 		<div class="copyright">
 			<div class="container">
 				<div class="row">
-				<div class="col-lg-12">
-						<p class="company-name">All Rights Reserved. &copy; 2020 <a href="#">blablabla</a> Design By : 
-					<a href="#">Rugaza</a></p>
+					<div class="col-lg-12">
+						<p style="text-align: center;" class="company-name">Copyright ©2020 All rights reserved By : <a href="#">RuGaZa</a></p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</footer>
-	<!-- End Footer -->
+	<!-- End Footer -->    
 	
 	<a href="#" id="back-to-top" title="Back to top" style="display: none;">&uarr;</a>
 
